@@ -1,0 +1,95 @@
+body {
+	font-family: 'Dosis', sans-serif;
+}
+
+.containar {
+	width: 850px;
+	margin: 0 auto;
+}
+
+/*HEADER*/
+
+.header-logo {
+	background: linear-gradient(to bottom, #769715, #99cc01);
+	height: 90px;
+}
+
+#logo-img {
+	background: url('../image/image6.png') no-repeat;
+	height: 25px;
+    width: 205px;
+    position: relative;
+    top: 32px;
+    left: 30px;
+}
+
+nav {
+	margin-left:14px;
+}
+
+ul {
+	list-style: none;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+	color: #093500;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+li:before {
+	content: url('../image/img3.png');
+	margin: 0 23px;
+}
+
+li:first-child:before {
+    content:"";
+    margin: 0;
+}
+/*END HEADER*/
+
+/*BANNER*/
+
+.banner {
+	padding: 15px;
+	background-color: #edeffb;
+	height: 200px;
+}
+.greeting {
+	float: left;
+}
+
+h1{
+	font-weight: normal;
+	color: #093500;
+}
+
+.saturation {
+	font-weight: bold;
+	font-family: 'Patua One', cursive;
+}
+
+.banner-text {
+	text-align: left;
+	font-size: 15px;
+	position: relative;
+	left: 40px;
+	margin-bottom: 0;
+}
+
+.containar1 {
+	height: 76px;
+	width: 700px;
+}
+
+b {
+	color: #80a60f;
+}
+/*END BANNER*/
