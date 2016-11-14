@@ -1,10 +1,14 @@
 body {
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Lora', serif;
 }
 
 .containar {
 	width: 850px;
 	margin: 0 auto;
+}
+
+.containar2 {
+	border-bottom: 2px solid #e6e6ed;
 }
 
 /*HEADER*/
@@ -40,13 +44,13 @@ li {
 a {
 	text-decoration: none;
 	color: #093500;
-	font-weight: bold;
-	font-size: 30px;
+	font-size: 20px;
+	text-shadow: 1px 1px 1px #D2CFCF;
 }
 
 li:before {
 	content: url('../image/img3.png');
-	margin: 0 23px;
+	margin: 0 35px;
 }
 
 li:first-child:before {
@@ -58,9 +62,9 @@ li:first-child:before {
 /*BANNER*/
 
 .banner {
-	padding: 15px;
+	padding: 10px;
 	background-color: #edeffb;
-	height: 200px;
+	height: 180px;
 }
 .greeting {
 	float: left;
@@ -69,19 +73,22 @@ li:first-child:before {
 h1{
 	font-weight: normal;
 	color: #093500;
+	margin-top: 5px;
+	font-family: 'Quicksand', sans-serif;
+	text-shadow: 1px 1px 1px #D2CFCF;
 }
 
 .saturation {
 	font-weight: bold;
-	font-family: 'Patua One', cursive;
 }
 
 .banner-text {
 	text-align: left;
-	font-size: 15px;
+	font-size: 12px;
 	position: relative;
 	left: 40px;
 	margin-bottom: 0;
+	line-height: 1.5;
 }
 
 .containar1 {
@@ -93,3 +100,88 @@ b {
 	color: #80a60f;
 }
 /*END BANNER*/
+
+/*SECTION 1*/
+
+.about-our-lab {
+	width: 290px;
+	float: left;
+}
+
+.title-section {
+	font-size: 19px;
+	text-shadow: 1px 1px 1px #D2CFCF;
+	font-weight: normal;
+}
+
+.line1 {
+	border-right: 2px solid #e6e6ed;
+	margin-right: 5px;
+	padding-left: 25px;
+	padding-right: 25px;
+	height: 270px;
+	font-size: 12px;
+}
+/*END SECTION 1*/
+
+/*SECTION 2*/
+
+.research {
+	font-size: 12px;
+	/*line-height: 1.5;*/
+	width: 492px;
+	float:right;
+	padding: 34px;
+	padding-bottom: 0;
+}
+
+.testing {
+	float:left;
+	margin-bottom: 30px;
+	margin-right: 20px;
+}
+
+.research .title-section {
+	margin: 0;
+}
+
+.research-block {
+	border-bottom: 2px solid #e6e6ed;
+	margin-bottom: 20px;
+}
+
+.research :last-child {
+	border-bottom: 0px;
+}
+
+.line {
+	clear: both;
+	border-bottom: 5px solid #e6e6ed;
+}
+/*END SECTION 2*/
+
+.footer {
+	padding-left: 36px;
+	font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
